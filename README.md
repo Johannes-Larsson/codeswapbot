@@ -10,3 +10,12 @@ If the message contains 'no' the user is removed from the database.
 
 It then checks the database and pairs up people wanting to swap, sending them a message with their partner's username. 
 The swap itself is made by the users themselves; the bot doesn't handle the codes.
+
+# Installation
+- install python (unless you have it installed already, which you probably do
+- install pip and sqlite3 (````apt install python-pip sqlite3```` might work)
+- ````pip install praw````
+- ````python setup.py````
+
+then you can
+- ````python main.py````
